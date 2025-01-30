@@ -112,13 +112,13 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: var( — main-dark);
+  background-color: #000000;
 }
 video {
-  height: 300px;
+  height: 450px;
   border-radius: 1rem;
   margin: 0.5rem;
-  width: 400px;
+  width: 450px;
   object-fit: cover;
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
