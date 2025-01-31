@@ -60,13 +60,18 @@ body {
  justify-content: center;
 }
 
+.options__button-video-mute {
+  background-color: #ff0000;
+}
+
 .options__button-mute {
   margin-left: 10px;
 }
 
 
 .options__button-message {
-  color: #fff;
+  color: #fffffff3;
+  margin-left: 10px;
 }
  
 .main__right {
