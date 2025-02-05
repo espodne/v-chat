@@ -57,7 +57,7 @@ const VideoChat: React.FC<{ roomId: string }> = ({ roomId }) => {
     peerRef.current = new Peer(undefined, {
       path: '/peerjs',
       host: 'localhost',
-      port: 3000,
+      port: 3000, // Исправлено на 3000
       secure: false,
     });
 

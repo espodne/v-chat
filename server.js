@@ -3,10 +3,9 @@ import { v4 as uuidv4 } from "uuid";
 import { Server } from "socket.io";
 import { ExpressPeerServer } from "peer";
 import cors from "cors";
-import http from "http"; 
+import http from "http";
 
 const app = express();
-
 
 app.use(cors({
   origin: "*", 
