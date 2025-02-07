@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Controls: React.FC<{
   toggleVideo: () => void;
@@ -9,11 +9,9 @@ const Controls: React.FC<{
   return (
     <div className="controls">
       <button onClick={toggleVideo}>
-        {isVideoOn ? 'Turn Off Video' : 'Turn On Video'}
+        {isVideoOn ? "Turn Off Video" : "Turn On Video"}
       </button>
-      <button onClick={toggleAudio}>
-        {isMuted ? 'Unmute' : 'Mute'}
-      </button>
+      <button onClick={toggleAudio}>{isMuted ? "Unmute" : "Mute"}</button>
     </div>
   );
 };
